@@ -1,0 +1,67 @@
+
+header{
+    background:cornflowerblue;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.container1{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.img1{
+    width: 100%;
+    height: 400px;
+}
+
+.img2{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.img3{
+    width: 100%;
+    height: 400px;
+}
+
+.img4{
+    width: 100%;
+    height: 400px;
+}
+
+.img5{
+    width: 100%;
+    height: 400px;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #15967d;
+  }
+
+  a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
